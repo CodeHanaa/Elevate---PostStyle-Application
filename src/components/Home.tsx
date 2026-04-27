@@ -1,6 +1,6 @@
 import Content from "./Content";
 import Header from "./Header";
-// تأكدي من استيراد النوع (Type) لو بتستخدميه
+
 import type { Post } from "../Types/post"; 
 
 const Home = ({ posts }: { posts: Post[] }) => {
